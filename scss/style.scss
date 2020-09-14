@@ -18,24 +18,36 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .showcase {
   background-color: $primary-color;
   color: #ffff;
   height: 600px;
   overflow: auto;
-}
 
-nav {
+
+  nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  ul {
+    ul {
     display: flex;
     list-style-type: none;
-  }
-  li {
+    }
+    li {
     padding: 15px;
+    }
+
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+  a {
+    color: #fff;
   }
 }
 
